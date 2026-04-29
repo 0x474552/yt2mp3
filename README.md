@@ -9,8 +9,7 @@ Users are solely responsible for complying with applicable laws and the terms of
 
 ---
 
-yt2mp3.py - youtube or soundcloud links to mp3 files conversion
-convert.py - mp4 to mp3 files conversion
+> byt2mp3.py - youtube or soundcloud links to mp3 files conversion, convert.py - mp4 to mp3 files conversion
 
 ---
 
