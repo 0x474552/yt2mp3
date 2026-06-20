@@ -12,7 +12,9 @@ Q_SCALE = "2"  # for -q:a
 
 COUNTER_FILE = os.path.join(BASE_DIR, "scripts", "count.txt")
 
-FFMPEG_BIN = os.path.join(BASE_DIR, "resources", "ffmpeg", "tools", "ffmpeg", "bin", "ffmpeg.exe")
+# FFMPEG_BIN = os.path.join(BASE_DIR, "resources", "ffmpeg", "tools", "ffmpeg", "bin", "ffmpeg.exe")
+# new ffmpeg location in resources/
+FFMPEG_BIN = os.path.join(BASE_DIR, 'resources','ffmpeg', 'bin'),
 
 os.makedirs(OUTPUT_DIR, exist_ok=True)
 os.makedirs(INPUT_DIR, exist_ok=True)

@@ -30,7 +30,9 @@ def download_mp3(url, output_dir=OUTPUT_DIR):
         ydl_opts = {
             'format': 'bestaudio/best',
             'outtmpl': os.path.join(output_dir, '%(title)s.%(ext)s'),
-            'ffmpeg_location': os.path.join(BASE_DIR, 'resources','ffmpeg', 'tools', 'ffmpeg', 'bin'),
+            # 'ffmpeg_location': os.path.join(BASE_DIR, 'resources','ffmpeg', 'tools', 'ffmpeg', 'bin'),
+            # new ffmpeg location in resources/
+            'ffmpeg_location': os.path.join(BASE_DIR, 'resources','ffmpeg', 'bin'),
             'geo_bypass': True, # prevent api failures
             'noplaylist': True, # download only current song
             'retries': 2,
